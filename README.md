@@ -4,8 +4,7 @@
  - [x] 3) Create a new HTML page called "index.html"
  - [x] 4) Create another HTML page called "about.html"
  - [x] 4) Add your head with all appropriate information, and your body. HINT: "! + tab" for HTML boilerplate
- - [x] 5) Inside the body of your about.html file you should: 
-    -Add a heading with the content/inner HTML set to "About Page" HINT: <h1> - <h6>
+ - [x] 5) Inside the body of your about.html file you should: -Add a heading with the content/inner HTML set to "About Page" HINT: <h1> - <h6>
  - [x] 6) Inside of the body of your index.html file you will need include the following:
  - [x] - A paragraph with text content HINT: lorem dummy text
  - [x] - Some bold, italic, and lined through text somewhere on the page

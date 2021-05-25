@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table fun</title>
+    <style>
+
+    </style>
+</head>
+<body id="tables">
+    <h1 id="main_heading" class="headings" >Table fun </h1>
+
+    <h2>basic table</h2>
+    <table>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+            </tr>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+    </table>
+
+    <h2>Table with headings</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <th>user id</th>
+            <td>Astraea</td>
+            <td>Fakeeamil.com</td>
+        </tr>
+        
+    </table>
+
+    <h2>Nest Tables</h2>
+    <table>
+        <tbody>
+        <tr>
+            <td>Astraea</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Astraea</td>
+                        <td>Second cell</td>
+                    </tr>
+                    <tr>
+                        <td>blue </td>
+                        <td>purple</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2>Forms</h2>
+    <form action="/search.html" method="post">
+        <label for="first_name">
+        <strong>First Name </strong>
+    </label>
+        <input autocomplete="off" required size="10" type="text" name="first_name" placeholder="First Name">
+        <br>
+        <label for="choose a color">Choose a color</label>
+        <input type="colors" id="colors" name="colors">
+        <br>
+        <label for="Email Adress">Email Adress</label>
+        <input autocomplete="off" required pattern=".+@hotmail.com" type="email" id="email_address" name="email_address">
+        <br>
+        <label for="range">Range Option</label>
+        <input type="range" id="range" name="range" min="10" max="20">
+        <br><br>
+        <label for="time">Time</label>
+        <input type="time" id="time" name="time">
+        <br><br>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" min="" max="" value="">
+        <br><br>
+        <label for="search_field">Search field</label>
+        <input type="search" id="search_field" name="search field">
+        <br><br>
+        <label for="url_field">URL field</label>
+        <input type="url" id="url_field" name="url_field">
+        <br><br>
+        <label for="phone_field">Phone Number</label>
+        <input type="tel" id="phone_field" name="phone_field">
+        <br><br>
+        <label for="file">file</label>
+        <input type="file" id="file" name="file" enctype="">
+        
+        <br><br>
+        <textarea rows="10" cols="10" id="blog_post" name="blog_post" placeholder="Article Text">
+        </textarea>
+
+        <br><br>
+
+        <label for="list_of_fruits">List of Fruits</label>
+        <select name="fruit" id="list_of_fruits" multiple>
+            <optgroup label=favorties>
+            <option value="banana">banana</option>
+            <option value="apple">Apple</option>
+            </optgroup>
+        </select>
+        
+        <input type="checkbox" value="apple" name="fruit"> 
+
+        <br><br>
+        <input type="radio" value="apple" name="fruit">
+
+        <h3>Secret field</h3>
+        <input type="hidden" id="secret" name="secret" value="I want a boat">
+        
+        <br><br>
+        <input type="password" id="pass" name="pass">
+
+        <br>
+        
+
+        <br><br>
+
+        
+
+        <br>
+        <input type="button">
+
+        <br><br>
+
+        <input type="submit">
+
+    </form>
+
+
+</body>
+</html>

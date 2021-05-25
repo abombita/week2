@@ -17,7 +17,7 @@
  - [x] - An ordered list
  - [x] - Nest another list in either one of your ordered/unordered list
  - [x] - Embed a video TIP: youtube, right click on video select embed
- - [ ] - Download a video and display it on your page using the <video> tag TIP: https://www.pexels.com/videos/
+ - [x] - Download a video and display it on your page using the <video> tag TIP: https://www.pexels.com/videos/
  - [ ] - Add an id attribute any *two* elements HINT: remember id's should have unique values 
  - [ ] 1) Push to Github
  - [ ] 2) Celebrate you've made your first webpage!

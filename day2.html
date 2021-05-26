@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirates Part 2</title>
+    <style>
+        h1#favcolor{
+            display:inline
+            
+        }
+        .rant{
+            display:inline;
+        }
+        #favfood{
+            display: block;
+        }
+        .food{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+        <h1 class="rant">Part Two Of My Pirate Rant</h1>
+    <br>
+    <div>
+        <table>
+            <th colspan="4">Pirate Crew</th>
+            <tr> 
+                <th> First Name </th>
+                <th> Last Name </th>
+                <th> Age </th>
+                <th> Rank </th>
+            </tr>
+            <tbody>
+                <tr>
+                <td> Astraea </td>
+                <td> Bombita </td>
+                <td>    22   </td>
+                <td> Captain </td>
+                </tr>
+                <tr>
+                    <td> D-Bo </td>
+                    <td> Bombita </td>
+                    <td> 6 </td>
+                    <td> First Mate </td>
+                </tr>
+                <tr>
+                    <td> Flor </td>
+                    <td> Ruiz </td>
+                    <td> 25 </td>
+                    <td> Quatermaster </td>
+                </tr>
+                <tr>
+                    <td> Siera </td>
+                    <td> Love </td>
+                    <td> 21 </td>
+                    <td> Sail Master </td>
+                </tr>
+                <tr>
+                    <td> James </td>
+                    <td> Miguel </td>
+                    <td> 22 </td>
+                    <td> Gunner </td>
+                </tr>
+                <tr>
+                    <td> Mariah </td>
+                    <td> Johnson </td>
+                    <td> 20 </td>
+                    <td> Surgeon </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <p id="my_crew" class="rant">
+        An important thing to do before setting off to sea is to get a good crew; a crew you can trust. In selecting a crew you have to think about a few things who do you trust, who do you know that has useful skills, and who can you be trapped with alone together for long periods of time. I chose D-Bo as my first mate because even though he is a dog I trust him with my life. As for Flor I chose her as my quartermaster because when it comes to pirate crews the quartermaster is in charge when the captain and first mate cannot. Also she's one of the most responsible people I know. The choice for my sail master is Siera; she has been obsessed with stars since we were kids and can use them to guide us. Now for my gunner I choose James for the simple reason that he knows way too much about old weaponry and is crazy enough to not fear the damage that could come to him in this position. Lastly we have Mariah she got the position of surgeon since she has the most medical experience of anyone I know. My crew fits my needs with their skills, are some of the few people I trust, and though it might be tough being at sea together I think we'd keep each other sane. With all that being said we definitely always have room for more.
+    </p>
+    <hr>
+    <div>
+        <label for="Application To Join The Crew"> Application To Join The Crew</label>
+        <br>
+        <form action="about.html" method="get">
+            
+            <label for="Enter Name">Enter Name Here</label>
+            <br>
+            <input required type="text" id="name" class="name" placeholder="First and Last Name">
+            <br>
+
+            <label for="Email To Reach You At">Email To Reach You At</label>
+            <br>
+            <input required type="email" id="email" name="email" placeholder="Fake_email@places.com">
+            <br>
+            
+            <label for="How Long You Can Last At Sea">How Long You Can Last At Sea</label>
+            (Minimum being one month and max being 24 months)
+            <br>
+            <input required type="range" id="range" name="range" min="1" max="24">
+            <br>
+            
+            <label for="When Can You Start">When Can You Start?</label>
+            <br>
+            <input required type="date" id="date" name="date">
+            <br>
+            
+            <h1 id="favcolor">What is your favorite color?</h1>
+            <label for="black">Black</label> 
+            <input type="radio" value="black" name="color">
+            <label for="red">Red</label> 
+            <input type="radio" value="red" name="color">
+            <br>
+            
+            <h1 id="favfood">What are your favorite foods?</h1>
+            <label for="Sea Biscuit">Seabiscuit</label>
+            <input type="checkbox" value="seabiscuit" name="food" class="food">
+            <label for="beans">Beans</label>
+            <input type="checkbox" value="beans" name="food" class="food">
+            <label for="pickles vegtables">Pickled Vegetables</label>
+            <input type="checkbox" value="pickled_veggies" name="food" class="food">
+
+            <br>
+            <h3>What Skills Can You Bring To The Table In Our Voyage?</h3>
+            <textarea id="skills" rows="10" cols="40" placeholder="I can do..."></textarea>
+
+            <br>
+
+            <label for="Best_Way_To_Drink_Rum">Best Way to Drink Rum?</label>
+            <select name="rum" id="Best_Way_To_Drink_Rum">
+                <option value="straight">Straight</option>
+                <option value="coke">Rum and Coke</option>
+                <option value="toddy">Hot Toddy</option>
+                <option value="coffee">In Coffee</option>
+                <option value="none">None</option>
+            </select>
+            
+            <br>
+
+            <button type="submit" value="submit">Submit</button>
+            <button type="reset" value="reset">Reset</button>
+
+        </form>
+    </div>
+
+    <div>
+        <p class="rant">
+            You’re drinking a Salty Dog? How’d you like to try the real thing? I’ve sailed the seven seas, and you’re the sleekest schooner I’ve ever sighted. Aye, I guarantee ye, I’ve had a twenty percent decrease in me “lice ratio!” The rougher the seas, the smoother we sail. Ahoy! Suddenly you’re like a pirate, you’re 65 years old and you’ve got an ear- ring. Damnation seize my soul if I give you quarters, or take any from you. Right from the <span>Voyage</span> og Noah, surviving was by sailing. Avast ye! and sail against the tides.
+        </p>
+        <br><br><br>
+    </div>
+</body>
+</html>

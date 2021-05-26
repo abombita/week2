@@ -1,22 +1,42 @@
 # week2
- - [x] 1) create a new GitHub repo named "week2".
- - [x] 2) Clone the repo onto your local machine.
- - [x] 3) Create a new HTML page called "index.html"
- - [x] 4) Create another HTML page called "about.html"
- - [x] 4) Add your head with all appropriate information, and your body. HINT: "! + tab" for HTML boilerplate
- - [x] 5) Inside the body of your about.html file you should: -Add a heading with the content/inner HTML set to "About Page" HINT: <h1> - <h6>
- - [x] 6) Inside of the body of your index.html file you will need include the following:
- - [x] - A paragraph with text content HINT: lorem dummy text
- - [x] - Some bold, italic, and lined through text somewhere on the page
- - [x] - A horizontal rule
- - [x] - A line break
- - [x] - A link to your favorite website (this should open up in a new tab)
- - [x] - A link to the about.html page (should redirect, open in the current tab, NOT a new one)
- - [x] - An unordered list
- - [x] - An ordered list
- - [x] - Nest another list in either one of your ordered/unordered list
- - [x] - Embed a video TIP: youtube, right click on video select embed
- - [x] - Download a video and display it on your page using the <video> tag TIP: https://www.pexels.com/videos/
- - [x] - Add an id attribute any *two* elements HINT: remember id's should have unique values 
- - [x] 1) Push to Github
- - [x] 2) Celebrate you've made your first webpage!
+- [ ] 1) In your "week2" repo, add a new file named "day2.html"
+- [ ] 1) In "day2.html" add your html boiler plate
+- [ ] 2) Create an html table element, it should: 
+- [ ] - have 3 columns: First Name, Last Name & Age. 
+- [ ] - It should have 3 rows with data in each cell
+- [ ] 4) Create a paragraph element with an id attribute set to a unique value 
+- [ ] 5) Create a paragraph element with a class set to a unique value 
+- [ ] 6) Create a label tag, the label tag should include: 
+- [ ] A for attribute set to a unique value
+- [ ] 7) Create a form tag, the form should include: 
+- [ ] The action & method attributes can be blank or omitted for now
+- [ ] an input with the type of text, it should: 
+- [ ] Have placeholder text of your choosing 
+- [ ] an id with a value that matches the for attribute of the label from the previous step
+- [ ] a name with a value that matches the value of the id attribute
+- [ ] should have the required attribute 
+- [ ] NOTE: steps 8 - 15 will all be a part of the same form as above 
+- [ ] 8) Create 3 more inputs (for a total of 4 in this form so far), each should have a label and be of a type that has not been previously used. 
+- [ ] 9) Create an <h1> element with the inner HTML set to "What is your favorite color?" e.g. <h1>What is your favorite color?</h1> 
+- [ ] 10) Create two radio buttons (multiple choice), they should...
+- [ ] Only be able to select one at a time, HINT: same name attribute value 
+- [ ] They should have a <label> element before them to label each radio button option
+- [ ] They should have a value that is appropriate to the label inner HTML 
+- [ ] Carry a value associated with the corresponding label
+- [ ] 11) Create an <h1> element with the inner HTML set to "What are your favorite foods?" 
+- [ ] 12) Create at least two checkboxes, they should...
+- [ ] All have the same value for the name attribute 
+- [ ] All should have a <label> element before them to label each checkbox option 
+- [ ] They should have a value that is appropriate to the label inner HTML
+- [ ] 13) Include one <textarea> element 
+- [ ] 14) A select dropdown, it should...
+- [ ] A name attribute (the select element)
+- [ ] Have at least two option element children with value attributes 
+- [ ] 15) A submit button, can be either an input element or a button element but must have a type of submit 
+- [ ] 16) Create a div element with a paragraph element nested inside of it
+- [ ] 17) The paragraph element should have some dummy text, choose one word from the dummy text and surround it in a <span> tag
+- [ ] 18) Enter three <br> tags
+- [ ] 19) Create an h1 element with the innerHTML set to inline elements
+- [ ] 20) Create 3 different inline elements
+- [ ] 21) Create an h1 element with the innerHTML set to block elements
+- [ ] 22) Create 3 different block elements

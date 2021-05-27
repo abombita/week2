@@ -26,11 +26,11 @@ body{
     background-color: #333;
     color: white;
 } 
-.cool-font{
+#cool-font{
     font-family: 'Amatic SC', cursive;
 }
 .border{
-    border: 3px, solid, steelblue;
+    border: 3px solid steelblue;
     border-radius: 25px;
 }
 .img{

@@ -1,0 +1,15 @@
+*{
+    background-color:darkgray;
+    font-family:luminari, fantasy;
+}
+#intro{
+    text-align: center;
+}
+.list1{
+    width: 50%;
+    float: left;
+}
+.list2{
+    width: 50%;
+    float: right;
+}
